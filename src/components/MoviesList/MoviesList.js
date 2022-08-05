@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 
 import {movieActions} from "../../redux";
-import {MovieDetailsPage} from "../../containers/MoviesPage ";
 import {MoviesListCard} from "../MoviesListCard ";
 import {Link, Outlet, useParams} from "react-router-dom";
 
@@ -10,7 +9,6 @@ import {Link, Outlet, useParams} from "react-router-dom";
 function MoviesList() {
 
     const {id}=useParams();
-
 
     const {movies} = useSelector(state => state.movies);
 
@@ -28,7 +26,8 @@ function MoviesList() {
 
 
     useEffect(() => {
-        dispatch(movieActions.getAll(page))
+        dispatch(movieActions.getAll(({page, id})
+        ))
     }, [page]);
 
 
