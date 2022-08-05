@@ -1,0 +1,21 @@
+.UserInfoImg{
+    display: flex;
+    justify-content: end;
+
+    height: 35px;
+    width: 35px;
+    border: #0f2a3d 1px solid;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.UserInfoAbout{
+    height: 35px;
+    font-size: 10px;
+    font-weight: bold;
+
+
+}
+.UserInfoWrap{
+    display: flex;
+}
