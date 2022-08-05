@@ -1,0 +1,65 @@
+.PosterWatch{
+    padding: 0;
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    text-align: start;
+    margin-left: 150px;
+}
+.posterPage{
+    background-image: url('https://trademaster.ua/im/pics/105939-multiplex.jpg');
+}
+
+.PosterBackdrop{
+    height: 30vw;
+    width: 60vw;
+    border-radius: 10px;
+}
+.PosterInfo{
+display: flex;
+}
+.Title{
+    margin-top: 0;
+    color: white;
+    margin-left: 150px;
+    font-size: 30px;
+}
+.IMDb{
+    height: 25px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 300px;
+    padding-top: 3px;
+
+    background-color: #3d3d3d;
+    border-radius: 6px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: smaller;
+}
+.WatchLaterWrap{
+    height: 25px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+    display: flex;
+    border: #3d3d3d 1px solid;
+    border-radius: 6px;
+    color: whitesmoke;
+
+}
+.fa-heart-circle-plus{
+    color: white;
+    size: 10px;
+    text-align: center;
+
+    padding-top: 4px;
+    padding-left: 9px;
+}
+.WatchLater{
+    font-size: 15px;
+    text-align: center;
+    color: silver;
+    margin-left: 10px;
+}

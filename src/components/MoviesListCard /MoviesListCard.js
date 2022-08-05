@@ -9,12 +9,17 @@ function MoviesListCard({value}) {
     return (
 
         <div className={'MoviesListCard'}>
-            <img src={'https://image.tmdb.org/t/p/w500' + posterLink}/>
-            <h3 className={'MoviesListCardTitle'}>{value.title}</h3>
-            <div className={'MoviesListCardStar'}>{value.vote_average}</div>
-            <StarsRating/>
-        </div>
-    );
+            <img className={'MoviesListCardImg'} src={'https://image.tmdb.org/t/p/w500' + posterLink}/>
+            <div className={'MovieCardText'}>
+                <h3 className={'MoviesListCardTitle'}>{value.title}</h3>
+                <div className={'MovieCardRating'}>
+                    <i className="fa-solid fa-thumbs-up"></i>
+                    <div className={'MoviesListCardStar'}>{value.vote_average}</div>
+                </div>
+                <StarsRating/>
+            </div>
+
+        </div>);
 }
 
 export {MoviesListCard};

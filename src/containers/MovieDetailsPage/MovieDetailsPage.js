@@ -5,13 +5,13 @@ import {useLocation} from "react-router-dom";
 
 function MovieDetailsPage() {
 
-    const {state}=useLocation();
+    const {state} = useLocation();
 
     return (
         <div>
-
-            <PosterPreview state={state}/>
-            <h2>{state.title}</h2>
+            <div className={'MDPoster'}>
+                <PosterPreview state={state}/>
+            </div>
             <MovieInfo state={state}/>
         </div>
     );

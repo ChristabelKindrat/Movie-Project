@@ -4,18 +4,30 @@
 
     height: 35px;
     width: 35px;
-    border: #0f2a3d 1px solid;
     border-radius: 50%;
     margin-top: 5px;
+    margin-left: 5px;
 }
 
 .UserInfoAbout{
-    height: 35px;
-    font-size: 10px;
-    font-weight: bold;
+
+    color: rgba(148,148,148,0.61);
 
 
 }
 .UserInfoWrap{
     display: flex;
+}
+.UserInfoName{
+    margin-top: 5px;
+    margin-bottom: 0;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.UserInfoGmail{
+    margin-top: -12px;
+    font-size: small;
+    margin-left: 10px;
+
 }

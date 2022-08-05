@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-
 import {movieActions} from "../../redux";
-import {MoviesListCard} from "../MoviesListCard ";
 import {Link, Outlet, useParams} from "react-router-dom";
+
+import {MoviesListCard} from "../MoviesListCard ";
 
 
 function MoviesList() {
 
-    const {id}=useParams();
+    const {id} = useParams();
 
     const {movies} = useSelector(state => state.movies);
 
@@ -28,25 +28,26 @@ function MoviesList() {
     useEffect(() => {
         dispatch(movieActions.getAll(({page, id})
         ))
-    }, [page]);
+    }, [page, id]);
 
 
     return (
         <div>
-            <Outlet/>
+
+            <h2 className={'MovieListText'}>Movie List</h2>
+
             <div className={'MoviesListCardWrap'}>
 
                 {movies?.results && movies.results.map(movies =>
-
                     <Link to={'/movie'} state={movies}>
                         <MoviesListCard key={movies.id} value={movies}/>
-                    </Link>)}
-
+                    </Link>
+                )}
             </div>
 
-            <button onClick={decPage}>{'previous page'}</button>
+            <button onClick={decPage}>{'<<'}</button>
 
-            <button onClick={incPage}>{'next page'}</button>
+            <button onClick={incPage}>{'>>'}</button>
 
         </div>
     );

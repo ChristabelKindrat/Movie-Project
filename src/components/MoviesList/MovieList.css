@@ -1,0 +1,19 @@
+.MovieListText{
+    color: dimgray;
+    font-size: xxx-large;
+    border: 0;
+    margin: 5px 0 5px 40px;
+    text-align: start;
+}
+button {
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-around;
+    font-size: 10px;
+
+}

@@ -5,6 +5,7 @@ import {genreActions} from "../../redux";
 import {Link} from "react-router-dom";
 
 
+
 function Genre() {
     const {genre} = useSelector(state => state.genre);
 
@@ -17,8 +18,9 @@ function Genre() {
     return (
 
         <div className={'GenreWrap'}>
+
             {genre?.genres && genre.genres.map(value =>
-                <Link to={value.id.toString()}>
+                <Link  className={'GenreLink'} to={value.id.toString()}>
                     <div key={value.id} className={'GenreDiv'}>{value.name}</div>
                 </Link>
             )}

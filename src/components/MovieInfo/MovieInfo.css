@@ -1,0 +1,81 @@
+.MovieInfoWrap {
+    display: flex;
+}
+
+.Poster {
+    border-radius: 4px;
+    margin: 20px 20px 20px 50px;
+
+}
+.MovieInfoInfo{
+    margin-left: 20px;
+}
+
+.MovieInfoTitle {
+    color: white;
+    font-weight: bolder;
+    text-align: start;
+
+}
+.MovieInfoOverview{
+    color: silver;
+    text-align: start;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.MIDivOverview{
+display: flex;
+    padding-top: 40px;
+}
+.fa-eye{
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 5px;
+
+}
+.MovieInfoEye{
+    color: silver;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 15px;
+}
+.MovieInfoP{
+    color: silver;
+    margin-top: -8px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.fa-thumbs-up{
+    color: white;
+    font-size: 23px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.MovieInfoAverage{
+    color: silver;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 15px;
+}
+.MoviesDivDetails{
+    color: silver;
+    font-size: large;
+    text-align: start;
+    padding-top: 40px;
+
+}
+.MovieInfoData {
+    color: dimgray;
+    text-align: start;
+    padding-top: 10px;
+}
+.MovieInfoLanguage{
+    color: dimgray;
+    text-align: start;
+    padding-top: 10px;
+}
+
+
+

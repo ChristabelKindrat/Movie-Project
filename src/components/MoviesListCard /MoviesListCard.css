@@ -1,7 +1,57 @@
-.MoviesListCardWrap{
+.MoviesListCardWrap {
+    display: flex;
 
 
 }
-.MoviesListCard{
+
+.MoviesListCard {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.MoviesListCardImg {
+}
+
+div.MovieCardText{
+    solid-opacity: 40%;
+}
+.MovieCardText {
+    box-sizing: border-box;
+    background-color: #121212;
+    width: 400px;
+    position: absolute;
+    bottom: -50px;
+    padding: 20px;
+    opacity: 50%;
+
+    border-radius: 30px;
+
+}
+
+
+.MoviesListCardTitle {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.MovieCardRating{
+    display: flex;
+    justify-content: center;
+}
+.fa-thumbs-up{
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.MoviesListCardStar {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
 
 }
