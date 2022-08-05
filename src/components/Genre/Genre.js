@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
+
 import {genreActions} from "../../redux";
-import {MovieDetailsPage} from "../../containers/MoviesPage ";
 import {Link} from "react-router-dom";
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import {PosterPreview} from "../PosterPreview";
+
 import {StarsRating} from "../StarsRating ";
 
 function MoviesListCard({value}) {

@@ -1,4 +1,3 @@
-import React, {useEffect} from 'react';
 
 function PosterPreview({state}) {
 

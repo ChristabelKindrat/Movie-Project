@@ -1,10 +1,10 @@
-import {Genre} from "../../components/Genre";
-import {Link, Outlet, Route, Routes, useParams} from "react-router-dom";
+
 import {MoviesList} from "../../components/MoviesList";
 import {Header} from "../../components/Header";
+import {Genre} from "../../components/Genre";
 
 
-function MoviePage() {
+function MoviesPage() {
 
     return (
         <div>
@@ -21,5 +21,4 @@ function MoviePage() {
     );
 };
 
-
-export {MoviePage};
+export {MoviesPage};

@@ -1,8 +1,10 @@
 import './App.css';
-import {Routes, Route, Link} from "react-router-dom";
-import {GenreMoviesPage, MoviePage, NotFoundPage} from "./containers/MoviesPage ";
-import {MovieDetailsPage} from "./containers/MoviesPage ";
+import {Routes, Route} from "react-router-dom";
+
 import {MoviesList} from "./components/MoviesList";
+import {MovieDetailsPage} from "./containers/MovieDetailsPage";
+import {NotFoundPage} from "./containers/NotFoundPage";
+import {MoviesPage} from "./containers/MoviesPage ";
 
 function App() {
 
@@ -12,7 +14,7 @@ function App() {
         <div className="App">
 
             <Routes>
-                <Route path={'/'} element={<MoviePage/>}>
+                <Route path={'/'} element={<MoviesPage/>}>
                     <Route path={':id'} element={<MoviesList/>}/>
                 </Route>
                 <Route path={'title'} element={<MovieDetailsPage/>}/>
