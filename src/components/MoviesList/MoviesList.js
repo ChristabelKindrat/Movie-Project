@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {movieActions} from "../../redux";
-import {Link, Outlet, useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 
 import {MoviesListCard} from "../MoviesListCard ";
 

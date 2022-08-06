@@ -1,31 +1,34 @@
 .MoviesListCardWrap {
-    display: flex;
+    width: 1000px;
+    display:grid;
+    grid-template-columns: auto auto auto;
 
 
 }
 
 .MoviesListCard {
     width: min-content;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    position: relative;
 
 }
 
 .MoviesListCardImg {
+width: 33.3vw;
 }
 
 div.MovieCardText{
     solid-opacity: 40%;
 }
 .MovieCardText {
-    box-sizing: border-box;
+    display: block;
     background-color: #121212;
     width: 400px;
     position: absolute;
-    bottom: -50px;
+    bottom: 50px;
     padding: 20px;
     opacity: 50%;
 

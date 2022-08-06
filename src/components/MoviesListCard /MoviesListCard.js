@@ -1,6 +1,5 @@
 import React from 'react';
 
-import {StarsRating} from "../StarsRating ";
 
 function MoviesListCard({value}) {
 
@@ -16,7 +15,6 @@ function MoviesListCard({value}) {
                     <i className="fa-solid fa-thumbs-up"></i>
                     <div className={'MoviesListCardStar'}>{value.vote_average}</div>
                 </div>
-                <StarsRating/>
             </div>
 
         </div>);
