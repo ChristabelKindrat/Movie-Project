@@ -1,7 +1,9 @@
 import {MoviesList} from "../../components/MoviesList";
 import {Header} from "../../components/Header";
 import {Genre} from "../../components/Genre";
+
 import React from "react";
+import {Outlet} from "react-router-dom";
 
 
 function MoviesPage() {
@@ -18,7 +20,7 @@ function MoviesPage() {
 
             <Genre/>
 
-            <MoviesList/>
+            <Outlet/>
 
         </div>
     );

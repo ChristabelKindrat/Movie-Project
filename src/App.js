@@ -2,8 +2,8 @@ import './App.css';
 import {Routes, Route} from "react-router-dom";
 
 import {MoviesList} from "./components/MoviesList";
-import {MovieDetailsPage} from "./containers/MovieDetailsPage";
-import {NotFoundPage} from "./containers/NotFoundPage";
+import {MovieDetailsPage} from "./containers";
+import {NotFoundPage} from "./containers";
 import {MoviesPage} from "./containers/MoviesPage ";
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
 
             <Routes>
                 <Route path={'/'} element={<MoviesPage/>}>
+                    <Route index element={<MoviesList/>}/>
                     <Route path={':id'} element={<MoviesList/>}/>
                 </Route>
                 <Route path={'title'} element={<MovieDetailsPage/>}/>
