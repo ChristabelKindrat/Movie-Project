@@ -7,7 +7,9 @@
 
 
 }
-
+.GenreDiv:hover{
+    color: #01b4e4;
+}
 .GenreDiv{
 
     width: 110px;
@@ -23,7 +25,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
 
 }
 .GenreLink{
