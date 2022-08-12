@@ -1,4 +1,38 @@
-.Header{
-    height: 50px;
+.Header {
+    height: 90px;
     width: 100%;
 }
+
+.HeaderWrapAll {
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, #212529, #1C2024);
+}
+
+.HeaderImage {
+    height: 80px;
+    width: 120px;
+
+}
+.MovieLink{
+    text-decoration: none;
+}
+.MainPage:hover{
+    color: #01b4e4;
+}
+.MainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: gainsboro;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: none;
+
+
+    height: 80px;
+    width: 250px;
+}
+

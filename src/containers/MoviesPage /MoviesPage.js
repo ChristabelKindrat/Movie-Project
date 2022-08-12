@@ -1,4 +1,3 @@
-import {MoviesList} from "../../components/MoviesList";
 import {Header} from "../../components/Header";
 import {Genre} from "../../components/Genre";
 

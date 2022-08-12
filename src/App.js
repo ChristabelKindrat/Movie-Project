@@ -6,6 +6,7 @@ import {MovieDetailsPage} from "./containers";
 import {NotFoundPage} from "./containers";
 import {MoviesPage} from "./containers/MoviesPage ";
 
+
 function App() {
 
 
@@ -13,10 +14,12 @@ function App() {
 
         <div className="App">
 
+
             <Routes>
                 <Route path={'/'} element={<MoviesPage/>}>
                     <Route index element={<MoviesList/>}/>
                     <Route path={':id'} element={<MoviesList/>}/>
+                    <Route path={'MovieLink'} element={<MoviesList/>}/>
                 </Route>
                 <Route path={'title'} element={<MovieDetailsPage/>}/>
                 <Route path={'/movie'} element={<MovieDetailsPage/>}/>

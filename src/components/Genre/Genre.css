@@ -4,7 +4,6 @@
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
     width: 100vw;
     justify-content: space-evenly;
-    background-color: #4f4f4f;
 
 
 }
@@ -18,7 +17,6 @@
 
     font-size: 13px;
     font-weight: bolder;
-    text-decoration: none;
 
     display: flex;
     color: silver;

@@ -16,7 +16,6 @@ function Genre() {
     }, []);
 
     return (
-
         <div className={'GenreWrap'}>
 
             {genre?.genres && genre.genres.map(value =>
