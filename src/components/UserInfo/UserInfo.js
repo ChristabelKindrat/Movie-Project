@@ -12,8 +12,7 @@ function UserInfo() {
             <div className={'UserInfoAbout'}>
 
                 <form className={'UserForm'} onSubmit={handleSubmit((obj)=>{
-                    console.log(obj)
-                //    !Push to API Server
+                    localStorage.setItem('user',JSON.stringify(obj))
 
                 })}>
 
