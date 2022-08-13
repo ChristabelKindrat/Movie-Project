@@ -12,8 +12,9 @@
     color: #01b4e4;
 }
 .UserInfoAbout{
-
     color: gainsboro;
+    display: block;
+
 
 }
 .UserInfoWrap{
@@ -22,15 +23,10 @@
     justify-content: center;
 }
 .UserInfoName{
-
-    margin-bottom: 0;
-    height: 35px;
-    font-size: 15px;
-    font-weight: bold;
+    margin-top: 20px;
+    margin-right:5px;
 }
-.UserInfoGmail{
-    margin-top: -12px;
-    font-size: small;
-    margin-left: 10px;
-
+.UserInfoPassword{
+    margin-right: 10px;
 }
+
